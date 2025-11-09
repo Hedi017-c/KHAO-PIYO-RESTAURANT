@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KHAO PIYO RESTAURANT</title>
+  <title>eat healthy live healthy</title>
 
   <style>
     body {
@@ -15,7 +15,7 @@
 
     h1 {
       text-align: center;
-      color: brown;
+      color: maroon; /* heading color */
       letter-spacing: 2px;
     }
 
@@ -33,6 +33,14 @@
       text-decoration: underline;
     }
 
+    a:visited {
+      color: red;
+    }
+
+    a:active {
+      color: blue;
+    }
+
     img {
       width: 300px;
       height: 200px;
@@ -42,15 +50,21 @@
     }
 
     table {
-      border: 2px solid red;
+      border: 2px solid blue;
       border-collapse: collapse;
       margin: 0 auto;
       text-align: center;
     }
 
     td {
-      border: 1px solid black;
+      border: 1px solid blue;
       padding: 8px 20px;
+    }
+
+    caption {
+      color: blue;
+      font-weight: bold;
+      margin-bottom: 5px;
     }
 
     p {
@@ -62,32 +76,33 @@
       text-align: center;
       font-weight: bold;
       margin-top: 40px;
-      color: brown;
+      color: maroon;
     }
   </style>
 </head>
 <body>
   <h1>KHAO PIYO RESTAURANT</h1>
 
-
   <ul style="margin-left:80px;">
-    <li><a href="#">Menus</a></li>
-    <li><a href="#">Reservation</a></li>
-    <li><a href="#">Catering</a></li>
-    <li><a href="#">Tours</a></li>
+    <li><a href="one.html">Menus</a></li>
+    <li><a href="two.html">Reservation</a></li>
+    <li><a href="three.html">Catering</a></li>
+    <li><a href="four.html">Tours</a></li>
   </ul>
 
-  <img src="getlstd-property-photo.jpg" alt="Restaurant Image" width="150px" height="150px">
+  <img src="Restaurant.jpg" alt="Restaurant Image">
 
   <h3 style="text-align:center;">Menus Available are</h3>
+
   <table>
+    <caption>Available Menu</caption>
     <tr><td>1</td><td>INDIAN</td></tr>
     <tr><td>2</td><td>PAKISTAN</td></tr>
     <tr><td>3</td><td>RUSSIA</td></tr>
     <tr><td>4</td><td>BRAZIL</td></tr>
   </table>
 
-  <p>Contact us for details and table reservations. <a href="#">Contact Us</a>.</p>
+  <p>Contact us for details and table reservations<a href="mailto:hedimadih@gmail.com">Contact Us</a>.</p>
 
   <div class="author">Hedi Madih Mohammed Qadir - Group/ A</div>
 </body>
